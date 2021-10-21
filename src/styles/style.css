@@ -1,0 +1,128 @@
+body{
+    padding: 30px;
+    /* background-color: #26212A; */
+}
+
+.flexWrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-between;
+   
+   
+}
+
+.mainContainer{
+    color: #E25132;
+    font-size: 50px;
+    margin-left: 10vw;
+}
+
+.linkWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.links{
+    margin-left: 30px;
+    display: flex;
+    color: black;
+    /* justify-content: center; */
+}
+
+.centerWrap{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  
+    /* padding-right: 150px; */
+}
+
+.imageWrap{
+  width: 700px;
+  height: 700px;
+}
+
+.h2Wrap{
+   max-width: 50ch;
+   margin-right: 8vw;
+   /* margin-top: 10vw; */
+}
+
+.h2Text{
+    font-size: 50px;
+   
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: -5px;
+}
+
+.secondFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: -5px;
+}
+
+@media only screen and (max-width: 1180px){
+    .flexWrapper{
+        /* background-color: violet; */
+    }
+
+    .centerWrap{
+        /* background-color: red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+      
+        /* padding-right: 150px; */
+    }
+
+    .imageWrap{
+        width: 400px;
+        height: 400px;
+      }
+
+      .mainContainer{
+        color: #E25132;
+        font-size: 50px;
+        margin-left: .2vw;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: -5px;
+    }
+
+    .secondFooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-right: -15px;
+        margin-left: -25px;
+    }
+}
