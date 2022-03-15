@@ -12,7 +12,7 @@ const GetStarted = () => {
     <div className="mainContainer">CRYBSE</div>
      <div className="mainContainer2">
       <div>
-      <div className="textContainer" style={{fontFamily:"Hind Madurai", fontWeight:"bold"}}>Our best users are all over the world with wide coverage</div>
+      <div className="textContainer" style={{fontFamily:"Montserrat", fontWeight:"bold"}}>Our best users are all over the world with wide coverage</div>
      <div className="txtContain" style={{fontFamily:"Hind Madurai", opacity:0.8}}>Our platform reaches people all over the world, hereby we are trusted as the best platform for crypto trading</div>
      <div style={{flexDirection:"row", display:"flex", justifyContent:"space-between", marginTop:50}}>
        <div className="footer2">
@@ -35,7 +35,7 @@ const GetStarted = () => {
 
 
      <div className="imgContainer">
-       <img src={flame} className="imgWrap"/>
+       <img src={flame} alt="" className="imgWrap"/>
      </div>
      </div>
     

@@ -14,17 +14,17 @@ const HomePage = () => {
         <div className="mainContainer">CRYBSE</div>
         <div className="linkWrapper">
           <Link
-            to="/home"
+            to="/contact"
             className="links"
             activeStyle={{
             fontWeight: "bold",
             color: "#ff0000"
             }}
           >
-            Market
+            Contact
           </Link>
-          <Link to="/home" className="links">
-            Exchange
+          <Link to="/dashboard" className="links">
+           Dashboard
           </Link>
           <Link to="/home" className="links">
             Community
@@ -40,7 +40,7 @@ const HomePage = () => {
 
       <div className="centerWrap">
           <div className="h2Wrap">
-              <h2 className="h2Text" style={{fontFamily:"Hind Madurai"}}>The best trading cryptocurrency assets</h2>
+              <h2 className="h2Text" style={{fontFamily:"Montserrat"}}>The best trading cryptocurrency assets</h2>
               <div style={{lineHeight:1.5, fontSize:20, fontFamily:"Hind Madurai"}}>Start messaging now on cyptoApp you can learn to buy and sell cryptocurrency assets with the best quality and ease</div>
               <Link to="/getstarted">
               <div style={{marginTop:30, backgroundColor:"#E25132", borderWidth:1, width:170, justifyContent:"center", alignItems:"center", display:"flex", height:50, borderRadius:30, color:"white", fontSize:18, fontFamily:"Hind Madurai"}}>
